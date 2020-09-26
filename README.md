@@ -5,10 +5,10 @@ This project was created to explore the different options to make the Angular fo
 
 The following libraries are tested.
 
-| Library name     | Version       | Size         | Weekly Downloads     |  Last publish(26.09.2020) | Notes                                 |
-| -------------    | ------------- | ------------ | -------------------- | ------------------------- | ------------------------------------- |
-| @ng-stack/forms  | 2.2.3         | 590 kB       | 842                  | 1 month ago               | Types must be cast to not throw error |
-| Content Cell     | Content Cell  |
+| Library name              | Version       | Size         | Weekly Downloads     |  Last publish(26.09.2020) | Notes                                 |
+| ------------------------- | ------------- | ------------ | -------------------- | ------------------------- | ------------------------------------- |
+| @ng-stack/forms           | 2.2.3         | 590 kB       | 842                  | 1 month ago               | Types must be cast to not throw error. Naming conventions are the same as original Form names so could cause confusion. Large size |
+| @ngx-strongly-typed-forms | 8.0.1         | 68.1 kB      | 532                  | 1 Year ago                | NOT YET TESTED
 
 
 
