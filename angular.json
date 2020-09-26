@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-strongly-typed-forms"
+    }
+  },
+  "defaultProject": "angular-strongly-typed-forms",
+  "cli": {
+    "analytics": "45104d1e-a0c6-4c8e-9a9f-b52dcbddc2d3"
+  }
 }

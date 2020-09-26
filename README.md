@@ -1,5 +1,18 @@
 # AngularStronglyTypedForms
 
+This project was created to explore the different options to make the Angular forms strongly typed.
+
+
+The following libraries are tested.
+
+| Library name     | Version       | Size         | Weekly Downloads     |  Last publish(26.09.2020) | Notes                                 |
+| -------------    | ------------- | ------------ | -------------------- | ------------------------- | ------------------------------------- |
+| @ng-stack/forms  | 2.2.3         | 590 kB       | 842                  | 1 month ago               | Types must be cast to not throw error |
+| Content Cell     | Content Cell  |
+
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.2.
 
 ## Development server

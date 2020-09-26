@@ -1,0 +1,38 @@
+
+<h1>ng-stack-forms</h1>
+
+<form [formGroup]="formGroup">
+
+  <input type="text" formControlName="string">
+  <input type="number" formControlName="number">
+
+  <label for="checkbox">
+    <input id="checkbox" type="checkbox" name="checkbox" formControlName="bool">
+    Test the checkbox
+  </label>
+
+
+  <input *ngFor="let control of formGroup.controls.controlArray.controls" type="text" [formControl]="control">
+  <button type="button" (click)="addControl()">Add Control</button>
+
+
+  <label for="cars">Choose a car: (Multiple by holding control)</label>
+  <select name="cars" id="cars" multiple formControlName="array">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="opel">Opel</option>
+    <option value="audi">Audi</option>
+  </select>
+
+
+</form>
+
+<div style="width: 100%; border: 2px black solid; margin: 0px;"></div>
+
+<pre class="form-output">{{ formValue() | json}}</pre>
+
+<div style="width: 100%; border: 2px red solid; margin: 0px;"></div>
+
+<div>FORM IS VALID: {{ formGroup.valid }}</div>
+
+<pre class="form-output">{{ formErrors | json}}</pre>
